@@ -5,8 +5,9 @@ use strict;
 use warnings;
 
 my $Re0 = {
-    'subject'  => qr/Undeliverable:/,
-    'received' => qr/.+[.](?:outbound[.]protection|prod)[.]outlook[.]com\b/,
+    'subject'   => qr/Undeliverable:/,
+    'received'  => qr/.+[.](?:outbound[.]protection|prod)[.]outlook[.]com\b/,
+    'message-id' => qr/.+[.](?:outbound[.]protection|prod)[.]outlook[.]com\b/,
 };
 my $Re1 = {
     'begin'  => qr{\A(?:
@@ -80,6 +81,10 @@ sub scan {
     $match++ if $mhead->{'x-ms-exchange-crosstenant-fromentityheader'};
     $match++ if $mhead->{'x-ms-exchange-transport-crosstenantheadersstamped'};
     $match++ if grep { $_ =~ $Re0->{'received'} } @{ $mhead->{'received'} };
+    if( defined $mhead->{'message-id'} ) {
+        # Message-ID: <00000000-0000-0000-0000-000000000000@*.*.prod.outlook.com>
+        $match++ if $mhead->{'message-id'} =~ $Re0->{'message-id'};
+    }
     return undef if $match < 2;
 
     if( $$mbody =~ /^Content-Transfer-Encoding: quoted-printable$/m ) {
