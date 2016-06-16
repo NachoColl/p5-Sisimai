@@ -57,6 +57,7 @@ my $AnotherList5 = [
     # also required for detecting MTA name
     'Sisimai::MSP::US::Google',
     'Sisimai::MSP::US::Outlook',
+    'Sisimai::MSP::US::Office365',
     'Sisimai::MSP::RU::MailRu',
     'Sisimai::MSP::UK::MessageLabs',
     'Sisimai::MTA::MailMarshalSMTP',
@@ -70,7 +71,6 @@ my $AnotherList9 = [
     'Sisimai::MSP::DE::GMX',
     'Sisimai::MSP::RU::Yandex',
     'Sisimai::MSP::US::ReceivingSES',
-    'Sisimai::MSP::US::Office365',
     'Sisimai::MSP::US::AmazonWorkMail',
     'Sisimai::MSP::US::Zoho',
     'Sisimai::MTA::McAfee',
