@@ -43,7 +43,7 @@ sub index {
     my $class = shift;
     my $index = [
         'Sendmail', 'Postfix', 'qmail', 'Exim', 'Courier', 'OpenSMTPD', 
-        'Exchange', 'MessagingServer', 'Domino', 'Notes', 'ApacheJames', 
+        'Exchange2003', 'MessagingServer', 'Domino', 'Notes', 'ApacheJames', 
         'McAfee', 'MXLogic', 'MailFoundry', 'IMailServer', 'mFILTER', 
         'Activehunter', 'InterScanMSS', 'SurfControl', 'MailMarshalSMTP',
         'X1', 'X2', 'X3', 'X4', 'X5', 'V5sendmail', 
@@ -115,7 +115,7 @@ azumakuniyuki
 
 =head1 COPYRIGHT
 
-Copyright (C) 2014-2015 azumakuniyuki, All rights reserved.
+Copyright (C) 2014-2016 azumakuniyuki, All rights reserved.
 
 =head1 LICENSE
 
