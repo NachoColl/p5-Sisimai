@@ -168,10 +168,10 @@ MTA/MSPモジュール一覧
 | Module Name(Sisimai::)   | Description                                       |
 |--------------------------|---------------------------------------------------|
 | MTA::Activehunter        | TransWARE Active!hunter                           |
-| MTA::ApacheJames         | Java Apache Mail Enterprise Server(> v4.1.26)     |
+| MTA::ApacheJames         | Java Apache Mail Enterprise Server                |
 | MTA::Courier             | Courier MTA                                       |
 | MTA::Domino              | IBM Domino Server                                 |
-| MTA::Exchange            | Microsoft Exchange Server                         |
+| MTA::Exchange2003        | Microsoft Exchange Server 2003                    |
 | MTA::Exim                | Exim                                              |
 | MTA::IMailServer         | IPSWITCH IMail Server                             |
 | MTA::InterScanMSS        | Trend Micro InterScan Messaging Security Suite    |
@@ -180,19 +180,19 @@ MTA/MSPモジュール一覧
 | MTA::MailMarshalSMTP     | Trustwave Secure Email Gateway                    |
 | MTA::McAfee              | McAfee Email Appliance                            |
 | MTA::MessagingServer     | Oracle Communications Messaging Server            |
-| MTA::mFILTER             | Digital Arts m-FILTER                             |
 | MTA::Notes               | Lotus Notes                                       |
 | MTA::OpenSMTPD           | OpenSMTPD                                         |
 | MTA::Postfix             | Postfix                                           |
-| MTA::qmail               | qmail                                             |
 | MTA::Sendmail            | V8Sendmail: /usr/sbin/sendmail                    |
 | MTA::SurfControl         | WebSense SurfControl                              |
 | MTA::V5sendmail          | Sendmail version 5                                |
 | MTA::X1                  | Unknown MTA #1                                    |
 | MTA::X2                  | Unknown MTA #2                                    |
 | MTA::X3                  | Unknown MTA #3                                    |
-| MTA::X4                  | Unknown MTA #4 qmail clones(> v4.1.23)            |
-| MTA::X5                  | Unknown MTA #5 (> v4.13.0 )                       |
+| MTA::X4                  | Unknown MTA #4 qmail clones                       |
+| MTA::X5                  | Unknown MTA #5                                    |
+| MTA::mFILTER             | Digital Arts m-FILTER                             |
+| MTA::qmail               | qmail                                             |
 | MSP::DE::EinsUndEins     | 1&1: http://www.1and1.de                          |
 | MSP::DE::GMX             | GMX: http://www.gmx.net                           |
 | MSP::JP::Biglobe         | BIGLOBE: http://www.biglobe.ne.jp                 |
@@ -201,7 +201,7 @@ MTA/MSPモジュール一覧
 | MSP::RU::MailRu          | @mail.ru: https://mail.ru                         |
 | MSP::RU::Yandex          | Yandex.Mail: http://www.yandex.ru                 |
 | MSP::UK::MessageLabs     | Symantec.cloud http://www.messagelabs.com         |
-| MSP::US::AmazonSES       | AmazonSES(Sending): http://aws.amazon.com/ses/    |
+| MSP::US::AmazonSES       | Amazon SES(Sending): http://aws.amazon.com/ses/   |
 | MSP::US::AmazonWorkMail  | Amazon WorkMail: https://aws.amazon.com/workmail/ |
 | MSP::US::Aol             | Aol Mail: http://www.aol.com                      |
 | MSP::US::Bigfoot         | Bigfoot: http://www.bigfoot.com                   |
@@ -209,14 +209,14 @@ MTA/MSPモジュール一覧
 | MSP::US::Google          | Google Gmail: https://mail.google.com             |
 | MSP::US::Office365       | Microsoft Office 365: http://office.microsoft.com/|
 | MSP::US::Outlook         | Microsoft Outlook.com: https://www.outlook.com/   |
-| MSP::US::ReceivingSES    | AmazonSES(Receiving): http://aws.amazon.com/ses/  |
+| MSP::US::ReceivingSES    | Amazon SES(Receiving): http://aws.amazon.com/ses/ |
 | MSP::US::SendGrid        | SendGrid: http://sendgrid.com/                    |
 | MSP::US::Verizon         | Verizon Wireless: http://www.verizonwireless.com  |
 | MSP::US::Yahoo           | Yahoo! MAIL: https://www.yahoo.com                |
 | MSP::US::Zoho            | Zoho Mail: https://www.zoho.com                   |
 | ARF                      | Abuse Feedback Reporting Format                   |
 | RFC3464                  | Fallback Module for MTAs                          |
-| RFC3834                  | Detector for auto replied message (> v4.1.28)     |
+| RFC3834                  | Detector for auto replied message                 |
 
 バウンス理由の一覧
 ------------------
